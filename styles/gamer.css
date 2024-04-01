@@ -50,3 +50,11 @@ body {
   border-radius: 10px;
   background-color: #4ec5f7;
 }
+
+.we-are-gamer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
