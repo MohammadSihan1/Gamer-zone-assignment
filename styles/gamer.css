@@ -1,0 +1,28 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    margin: 30px;
+}
+
+/* navbar related styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-items > li > a{
+    text-decoration: none;
+    color: #3C354F;
+}
