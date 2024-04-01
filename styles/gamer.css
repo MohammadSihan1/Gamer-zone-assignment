@@ -127,3 +127,20 @@ body {
 .featured-img-2{
     transform: translateX(-55%);
 }
+
+.career{
+    background-color: #ff42a5;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.btn-position{
+    background-color: white;
+    color: #ff42a5;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
