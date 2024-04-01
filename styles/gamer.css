@@ -144,3 +144,29 @@ body {
     padding: 20px;
     font-size: 18px;
 }
+
+.featured-games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.btn-games{
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-games:hover{
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #ff42a5;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ff42a5;
+}
