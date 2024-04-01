@@ -1,28 +1,52 @@
-*{
-    font-family: "Work Sans", sans-serif;
+* {
+  font-family: "Work Sans", sans-serif;
 }
 
-body{
-    margin: 30px;
+body {
+  margin: 60px;
 }
 
 /* navbar related styles */
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-items{
-    list-style: none;
-    display: flex;
-    justify-content: end;
-    gap: 20px;
-    align-items: center;
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  align-items: center;
 }
 
-.nav-items > li > a{
-    text-decoration: none;
-    color: #3C354F;
+.nav-items > li > a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-btn-1 {
+  padding: 21px 40px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff42a5;
+}
+
+.banner-btn-2 {
+  padding: 21px 40px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #4ec5f7;
 }
